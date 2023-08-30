@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "../build",
+    "rootDir": "../",
+    "noEmitOnError": true,
+    "allowJs": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "electronexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./electronDemo01/src/main.ts",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.1.0"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
