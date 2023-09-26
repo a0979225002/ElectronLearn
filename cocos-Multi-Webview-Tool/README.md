@@ -48,7 +48,7 @@ my-app/
 │   │   └── js/
 │   │
 │   └── electron/
-│      └── main.js
+│      └── main.ts
 │
 ## distribution packages
 └── dist/
@@ -158,7 +158,7 @@ app.on('activate', () => {
 
 ```json
   "homepage": ".", # see https://create-react-app.dev/docs/deployment#serving-the-same-build-from-different-paths
-  "main": "build/electron/main.js",
+  "main": "build/electron/main.ts",
 ```
 
 #### Add properties for Electron Builder
